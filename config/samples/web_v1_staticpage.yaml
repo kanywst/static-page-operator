@@ -1,0 +1,8 @@
+apiVersion: web.my.example.com/v1
+kind: StaticPage
+metadata:
+  name: my-sample-page
+spec:
+  title: "Hello Go Operator!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+  content: "Kubebuilder is awesome."
+  image: "nginx:latest"
